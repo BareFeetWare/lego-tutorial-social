@@ -189,22 +189,22 @@
                         <sections>
                             <tableViewSection id="Uo4-Zw-lR5">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="eAr-WB-aTb" detailTextLabel="hoa-dj-cDM" imageView="lhx-u4-GW3" style="IBUITableViewCellStyleSubtitle" id="9jn-TO-EF3">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="eAr-WB-aTb" detailTextLabel="hoa-dj-cDM" imageView="lhx-u4-GW3" rowHeight="174" style="IBUITableViewCellStyleSubtitle" id="9jn-TO-EF3" customClass="NewsTableViewCell" customModule="Social" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9jn-TO-EF3" id="yhm-ph-k0c">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="173.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Lego Block Chain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eAr-WB-aTb">
-                                                    <rect key="frame" x="79" y="5" width="133" height="20.5"/>
+                                                    <rect key="frame" x="68" y="11" width="265" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hoa-dj-cDM">
-                                                    <rect key="frame" x="79" y="25.5" width="261" height="14.5"/>
+                                                    <rect key="frame" x="16" y="70.5" width="317" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Add your own Lego block to the chain of transactions to guarantee security by trusting a whole crowd of people you've never met. What can possibly go wrong?</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -212,42 +212,48 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="blockCircle" id="lhx-u4-GW3">
-                                                    <rect key="frame" x="16" y="0.0" width="48" height="43.5"/>
+                                                    <rect key="frame" x="16" y="11" width="44" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="tertiaryText" value="October 9, 12:32pm"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <segue destination="p1A-Xu-Eo0" kind="show" id="sQf-93-JRF"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="rNb-5j-CUU" detailTextLabel="fpa-qy-JeM" imageView="r7h-07-6ZP" style="IBUITableViewCellStyleSubtitle" id="z9W-7r-G0U">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="rNb-5j-CUU" detailTextLabel="fpa-qy-JeM" imageView="r7h-07-6ZP" rowHeight="172" style="IBUITableViewCellStyleSubtitle" id="z9W-7r-G0U" customClass="NewsTableViewCell" customModule="Social" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="174" width="375" height="172"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="z9W-7r-G0U" id="DM4-b7-YcL">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="171.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Air Block &amp; Block" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rNb-5j-CUU">
-                                                    <rect key="frame" x="79" y="5" width="130.5" height="20.5"/>
+                                                    <rect key="frame" x="68" y="11" width="265" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Rent out your Lego house for extra dollars. Create an extra revenue stream for your family by renting out your unused rooms." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fpa-qy-JeM">
-                                                    <rect key="frame" x="79" y="25.5" width="261" height="14.5"/>
+                                                    <rect key="frame" x="16" y="68.5" width="317" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="houseSimple" id="r7h-07-6ZP">
-                                                    <rect key="frame" x="16" y="0.0" width="48" height="43.5"/>
+                                                    <rect key="frame" x="16" y="11" width="44" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="tertiaryText" value="October 10, 2:13pm"/>
+                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -261,7 +267,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vgg-t5-tQd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1700" y="-399"/>
+            <point key="canvasLocation" x="1700" y="-399.85007496251876"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="gJi-FK-SuY">
@@ -380,7 +386,7 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4W8-E5-pbq">
                                                     <rect key="frame" x="78" y="25.5" width="262" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <mutableString key="text">Capture the architectural essence and splendor of Sydney with this magnificent set that brings together the iconic Sydney Opera House™, Sydney Harbour Bridge, Sydney Tower and Deutsche Bank Place, in an inspirational skyline setting. Each individual LEGO® structure provides a unique and rewarding building experience with true-to-life color and relative scale depiction. Sydney's sparkling harbor is represented in the tiled baseplate, adding an extra dimension and feel of authenticity to this detailed recreation of one of the world's most glamorous cities.</mutableString>
+                                                    <string key="text">Capture the architectural essence and splendor of Sydney with this magnificent set that brings together the iconic Sydney Opera House™, Sydney Harbour Bridge, Sydney Tower and Deutsche Bank Place, in an inspirational skyline setting. Each individual LEGO® structure provides a unique and rewarding building experience with true-to-life color and relative scale depiction. Sydney's sparkling harbor is represented in the tiled baseplate, adding an extra dimension and feel of authenticity to this detailed recreation of one of the world's most glamorous cities.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -412,7 +418,7 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HI4-xO-XiE">
                                                     <rect key="frame" x="82" y="25.5" width="258" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <mutableString key="text">Carry out daring space missions with the Space Shuttle Explorer, featuring an authentic white, black and gray color scheme, large engines, opening payload bay with robotic arm, satellite with foldout wings and a minifigure cockpit with tinted canopy. This 3-in-1 LEGO® Creator model rebuilds into a Moon Station or a Space Rover for further outer‑space adventures. Also includes a minifigure.</mutableString>
+                                                    <string key="text">Carry out daring space missions with the Space Shuttle Explorer, featuring an authentic white, black and gray color scheme, large engines, opening payload bay with robotic arm, satellite with foldout wings and a minifigure cockpit with tinted canopy. This 3-in-1 LEGO® Creator model rebuilds into a Moon Station or a Space Rover for further outer‑space adventures. Also includes a minifigure.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -484,7 +490,7 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C2K-Xa-WeW">
                                                     <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <mutableString key="text">Capture the architectural essence and splendor of Sydney with this magnificent set that brings together the iconic Sydney Opera House™, Sydney Harbour Bridge, Sydney Tower and Deutsche Bank Place, in an inspirational skyline setting. Each individual LEGO® structure provides a unique and rewarding building experience with true-to-life color and relative scale depiction. Sydney's sparkling harbor is represented in the tiled baseplate, adding an extra dimension and feel of authenticity to this detailed recreation of one of the world's most glamorous cities.</mutableString>
+                                                    <string key="text">Capture the architectural essence and splendor of Sydney with this magnificent set that brings together the iconic Sydney Opera House™, Sydney Harbour Bridge, Sydney Tower and Deutsche Bank Place, in an inspirational skyline setting. Each individual LEGO® structure provides a unique and rewarding building experience with true-to-life color and relative scale depiction. Sydney's sparkling harbor is represented in the tiled baseplate, adding an extra dimension and feel of authenticity to this detailed recreation of one of the world's most glamorous cities.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
