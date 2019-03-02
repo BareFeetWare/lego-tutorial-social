@@ -12,7 +12,7 @@
         <!--Chat-->
         <scene sceneID="LAl-y8-vYp">
             <objects>
-                <tableViewController id="Zfl-fO-hAB" sceneMemberID="viewController">
+                <tableViewController id="Zfl-fO-hAB" customClass="AdjustingTableViewController" customModule="BFWControls" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="j9M-Hv-YJg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,89 +20,98 @@
                         <sections>
                             <tableViewSection id="1fw-ru-6RB">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="9Qh-2w-ncQ" detailTextLabel="aq7-Ql-3fc" imageView="aD7-IB-cZi" style="IBUITableViewCellStyleSubtitle" id="AN8-vB-i7o">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="9Qh-2w-ncQ" detailTextLabel="aq7-Ql-3fc" imageView="aD7-IB-cZi" rowHeight="150" style="IBUITableViewCellStyleSubtitle" id="AN8-vB-i7o" customClass="LeftChatTableViewCell" customModule="Social" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AN8-vB-i7o" id="KXk-t6-kHf">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Erin Blockhead" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Qh-2w-ncQ">
-                                                    <rect key="frame" x="75" y="5" width="114" height="20.5"/>
+                                                    <rect key="frame" x="24" y="21.5" width="84.5" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Hi! How's it all going? It's been a while. Did you manage to sort it all out?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aq7-Ql-3fc">
-                                                    <rect key="frame" x="75" y="25.5" width="284" height="14.5"/>
+                                                    <rect key="frame" x="24" y="44" width="266.5" height="64.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="orangeHead" id="aD7-IB-cZi">
-                                                    <rect key="frame" x="16" y="0.0" width="44" height="43.5"/>
+                                                    <rect key="frame" x="315" y="95" width="44" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="tertiaryText" value="2:45pm"/>
+                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Ac0-BP-eQH" detailTextLabel="8h4-hC-4E3" imageView="vUS-nk-9ul" style="IBUITableViewCellStyleSubtitle" id="UnC-Iz-3gh">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="Ac0-BP-eQH" detailTextLabel="8h4-hC-4E3" imageView="vUS-nk-9ul" rowHeight="150" style="IBUITableViewCellStyleSubtitle" id="UnC-Iz-3gh" customClass="RightChatTableViewCell" customModule="Social" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="150" width="375" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UnC-Iz-3gh" id="MP2-7D-vnI">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ac0-BP-eQH">
-                                                    <rect key="frame" x="75" y="5" width="24" height="20.5"/>
+                                                    <rect key="frame" x="76" y="43.5" width="17.5" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Everything is awesome! Everything is cool when you're part of a team." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8h4-hC-4E3">
-                                                    <rect key="frame" x="75" y="25.5" width="284" height="14.5"/>
+                                                    <rect key="frame" x="76" y="66" width="270" height="42.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="winkHead" id="vUS-nk-9ul">
-                                                    <rect key="frame" x="16" y="0.0" width="44" height="43.5"/>
+                                                    <rect key="frame" x="16" y="95" width="44" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="tertiaryText" value="2:39pm"/>
+                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="8dq-ck-QmK" detailTextLabel="Tyt-t8-KHc" imageView="GTB-47-lcR" style="IBUITableViewCellStyleSubtitle" id="9Ln-e0-Xsc">
-                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="8dq-ck-QmK" detailTextLabel="Tyt-t8-KHc" imageView="GTB-47-lcR" rowHeight="150" style="IBUITableViewCellStyleSubtitle" id="9Ln-e0-Xsc" customClass="LeftChatTableViewCell" customModule="Social" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="300" width="375" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Ln-e0-Xsc" id="P5H-Pu-TyV">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Ben Interlock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8dq-ck-QmK">
-                                                    <rect key="frame" x="75" y="5" width="100.5" height="20.5"/>
+                                                    <rect key="frame" x="24" y="43.5" width="74.5" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Hey, let's all connect at the thing, after the other thing." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tyt-t8-KHc">
-                                                    <rect key="frame" x="75" y="25.5" width="284" height="14.5"/>
+                                                    <rect key="frame" x="24" y="66" width="258" height="42.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="farmerHead" id="GTB-47-lcR">
-                                                    <rect key="frame" x="16" y="0.0" width="44" height="43.5"/>
+                                                    <rect key="frame" x="315" y="95" width="44" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="tertiaryText" value="2:45pm"/>
+                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -113,10 +122,13 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Chat" id="Css-Vs-sH0"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="intrinsicHeightCells" value="YES"/>
+                    </userDefinedRuntimeAttributes>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q8l-Fa-SLp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1700" y="1154"/>
+            <point key="canvasLocation" x="1700" y="1153.6731634182909"/>
         </scene>
         <!--Chat-->
         <scene sceneID="dxQ-kh-Nrx">
@@ -374,22 +386,22 @@
                         <sections>
                             <tableViewSection id="HyY-bj-cHc">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="tTC-9P-DGa" detailTextLabel="4W8-E5-pbq" imageView="Jht-XD-9QV" style="IBUITableViewCellStyleSubtitle" id="o4x-bb-yA7">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="tTC-9P-DGa" detailTextLabel="4W8-E5-pbq" imageView="Jht-XD-9QV" rowHeight="190" style="IBUITableViewCellStyleSubtitle" id="o4x-bb-yA7" customClass="ProductTableViewCell" customModule="Social" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="190"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="o4x-bb-yA7" id="jnu-uz-GG7">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="189.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Sydney Opera House &amp; Harbour Bridge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tTC-9P-DGa">
-                                                    <rect key="frame" x="78" y="5" width="262" height="20.5"/>
+                                                    <rect key="frame" x="104" y="11" width="188.5" height="42.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4W8-E5-pbq">
-                                                    <rect key="frame" x="78" y="25.5" width="262" height="14.5"/>
+                                                    <rect key="frame" x="104" y="61.5" width="229" height="78.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Capture the architectural essence and splendor of Sydney with this magnificent set that brings together the iconic Sydney Opera House™, Sydney Harbour Bridge, Sydney Tower and Deutsche Bank Place, in an inspirational skyline setting. Each individual LEGO® structure provides a unique and rewarding building experience with true-to-life color and relative scale depiction. Sydney's sparkling harbor is represented in the tiled baseplate, adding an extra dimension and feel of authenticity to this detailed recreation of one of the world's most glamorous cities.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
