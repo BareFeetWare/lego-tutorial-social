@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E218753221C1D6A700C84E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218753121C1D6A700C84E92 /* AppDelegate.swift */; };
-		E218753421C1D6A700C84E92 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218753321C1D6A700C84E92 /* FirstViewController.swift */; };
-		E218753621C1D6A700C84E92 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218753521C1D6A700C84E92 /* SecondViewController.swift */; };
 		E218753921C1D6A800C84E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E218753721C1D6A700C84E92 /* Main.storyboard */; };
 		E218753B21C1D6AA00C84E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E218753A21C1D6AA00C84E92 /* Assets.xcassets */; };
 		E218753E21C1D6AA00C84E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E218753C21C1D6AA00C84E92 /* LaunchScreen.storyboard */; };
@@ -17,6 +15,8 @@
 		E22E277621C91945007B2C52 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22E277421C91945007B2C52 /* NewsTableViewCell.xib */; };
 		E22E27A121CB328C007B2C52 /* BFWControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22E279E21CB2F47007B2C52 /* BFWControls.framework */; };
 		E22E27A221CB328C007B2C52 /* BFWControls.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E22E279E21CB2F47007B2C52 /* BFWControls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E2ADEA9921D89DAA00C1988D /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ADEA9721D89DAA00C1988D /* ProductTableViewCell.swift */; };
+		E2ADEA9A21D89DAB00C1988D /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2ADEA9821D89DAA00C1988D /* ProductTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +60,6 @@
 /* Begin PBXFileReference section */
 		E218752E21C1D6A700C84E92 /* Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Social.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E218753121C1D6A700C84E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E218753321C1D6A700C84E92 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E218753521C1D6A700C84E92 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E218753821C1D6A700C84E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E218753A21C1D6AA00C84E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E218753D21C1D6AA00C84E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +67,8 @@
 		E22E277321C91945007B2C52 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		E22E277421C91945007B2C52 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
 		E22E279821CB2F45007B2C52 /* BFWControls.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BFWControls.xcodeproj; path = BFWControls/BFWControls.xcodeproj; sourceTree = "<group>"; };
+		E2ADEA9721D89DAA00C1988D /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		E2ADEA9821D89DAA00C1988D /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				E218753121C1D6A700C84E92 /* AppDelegate.swift */,
-				E218753321C1D6A700C84E92 /* FirstViewController.swift */,
-				E218753521C1D6A700C84E92 /* SecondViewController.swift */,
 				E218753721C1D6A700C84E92 /* Main.storyboard */,
 				E22E277321C91945007B2C52 /* NewsTableViewCell.swift */,
 				E22E277421C91945007B2C52 /* NewsTableViewCell.xib */,
 				E218753A21C1D6AA00C84E92 /* Assets.xcassets */,
 				E218753C21C1D6AA00C84E92 /* LaunchScreen.storyboard */,
 				E218753F21C1D6AA00C84E92 /* Info.plist */,
+				E2ADEA9721D89DAA00C1988D /* ProductTableViewCell.swift */,
+				E2ADEA9821D89DAA00C1988D /* ProductTableViewCell.xib */,
 			);
 			path = Social;
 			sourceTree = "<group>";
@@ -230,10 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E218753621C1D6A700C84E92 /* SecondViewController.swift in Sources */,
 				E218753221C1D6A700C84E92 /* AppDelegate.swift in Sources */,
 				E22E277521C91945007B2C52 /* NewsTableViewCell.swift in Sources */,
-				E218753421C1D6A700C84E92 /* FirstViewController.swift in Sources */,
+				E2ADEA9921D89DAA00C1988D /* ProductTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

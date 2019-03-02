@@ -366,7 +366,7 @@
         <!--Products-->
         <scene sceneID="zVB-rH-cZp">
             <objects>
-                <tableViewController id="ql2-Bb-itq" sceneMemberID="viewController">
+                <tableViewController id="ql2-Bb-itq" customClass="AdjustingTableViewController" customModule="BFWControls" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="A3P-ND-CvM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -397,31 +397,34 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="sydney" id="Jht-XD-9QV">
-                                                    <rect key="frame" x="16" y="0.0" width="47" height="43.5"/>
+                                                    <rect key="frame" x="16" y="11" width="80" height="80"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="tertiaryText" value="$98"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <segue destination="cJF-7A-1VQ" kind="show" id="pTw-cc-rBS"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="sjN-ih-hNC" detailTextLabel="HI4-xO-XiE" imageView="8vs-y5-XMu" style="IBUITableViewCellStyleSubtitle" id="EcO-Ty-zw5">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="sjN-ih-hNC" detailTextLabel="HI4-xO-XiE" imageView="8vs-y5-XMu" rowHeight="190" style="IBUITableViewCellStyleSubtitle" id="EcO-Ty-zw5" customClass="ProductTableViewCell" customModule="Social" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="190" width="375" height="190"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EcO-Ty-zw5" id="06d-2m-5wu">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="189.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Space Shuttle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sjN-ih-hNC">
-                                                    <rect key="frame" x="82" y="5" width="107" height="20.5"/>
+                                                    <rect key="frame" x="104" y="11" width="112" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HI4-xO-XiE">
-                                                    <rect key="frame" x="82" y="25.5" width="258" height="14.5"/>
+                                                    <rect key="frame" x="104" y="39.5" width="229" height="78.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Carry out daring space missions with the Space Shuttle Explorer, featuring an authentic white, black and gray color scheme, large engines, opening payload bay with robotic arm, satellite with foldout wings and a minifigure cockpit with tinted canopy. This 3-in-1 LEGO® Creator model rebuilds into a Moon Station or a Space Rover for further outer‑space adventures. Also includes a minifigure.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -429,11 +432,14 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="spaceShuttleSatellite" id="8vs-y5-XMu">
-                                                    <rect key="frame" x="16" y="0.0" width="51" height="43.5"/>
+                                                    <rect key="frame" x="16" y="11" width="80" height="80"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="tertiaryText" value="$75"/>
+                                        </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -444,6 +450,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Products" id="jyK-jw-OII"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="intrinsicHeightCells" value="YES"/>
+                    </userDefinedRuntimeAttributes>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lyt-uf-wCT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
