@@ -181,7 +181,7 @@
         <!--News-->
         <scene sceneID="ndO-zy-gaC">
             <objects>
-                <tableViewController id="g8N-2n-0iE" sceneMemberID="viewController">
+                <tableViewController id="g8N-2n-0iE" customClass="AdjustingTableViewController" customModule="BFWControls" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="wGQ-9n-0XC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -189,11 +189,11 @@
                         <sections>
                             <tableViewSection id="Uo4-Zw-lR5">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="eAr-WB-aTb" detailTextLabel="hoa-dj-cDM" imageView="lhx-u4-GW3" rowHeight="174" style="IBUITableViewCellStyleSubtitle" id="9jn-TO-EF3" customClass="NewsTableViewCell" customModule="Social" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="eAr-WB-aTb" detailTextLabel="hoa-dj-cDM" imageView="lhx-u4-GW3" rowHeight="220" style="IBUITableViewCellStyleSubtitle" id="9jn-TO-EF3" customClass="NewsTableViewCell" customModule="Social" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9jn-TO-EF3" id="yhm-ph-k0c">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="173.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="219.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Lego Block Chain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eAr-WB-aTb">
@@ -204,7 +204,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hoa-dj-cDM">
-                                                    <rect key="frame" x="16" y="63" width="317" height="20.5"/>
+                                                    <rect key="frame" x="16" y="63" width="317" height="81.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Add your own Lego block to the chain of transactions to guarantee security by trusting a whole crowd of people you've never met. What can possibly go wrong?</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -225,11 +225,11 @@
                                             <segue destination="p1A-Xu-Eo0" kind="show" id="sQf-93-JRF"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="rNb-5j-CUU" detailTextLabel="fpa-qy-JeM" imageView="r7h-07-6ZP" rowHeight="172" style="IBUITableViewCellStyleSubtitle" id="z9W-7r-G0U" customClass="NewsTableViewCell" customModule="Social" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="174" width="375" height="172"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="rNb-5j-CUU" detailTextLabel="fpa-qy-JeM" imageView="r7h-07-6ZP" rowHeight="220" style="IBUITableViewCellStyleSubtitle" id="z9W-7r-G0U" customClass="NewsTableViewCell" customModule="Social" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="220" width="375" height="220"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="z9W-7r-G0U" id="DM4-b7-YcL">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="171.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="219.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Air Block &amp; Block" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rNb-5j-CUU">
@@ -240,7 +240,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Rent out your Lego house for extra dollars. Create an extra revenue stream for your family by renting out your unused rooms." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fpa-qy-JeM">
-                                                    <rect key="frame" x="16" y="63" width="317" height="20.5"/>
+                                                    <rect key="frame" x="16" y="63" width="317" height="81.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -266,6 +266,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="News" id="kbP-rY-vx6"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="intrinsicHeightCells" value="YES"/>
+                    </userDefinedRuntimeAttributes>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vgg-t5-tQd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
