@@ -204,7 +204,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hoa-dj-cDM">
-                                                    <rect key="frame" x="16" y="70.5" width="317" height="20.5"/>
+                                                    <rect key="frame" x="16" y="63" width="317" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Add your own Lego block to the chain of transactions to guarantee security by trusting a whole crowd of people you've never met. What can possibly go wrong?</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -219,6 +219,7 @@
                                         </tableViewCellContentView>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="tertiaryText" value="October 9, 12:32pm"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="detailImage" value="chain"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <segue destination="p1A-Xu-Eo0" kind="show" id="sQf-93-JRF"/>
@@ -239,7 +240,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Rent out your Lego house for extra dollars. Create an extra revenue stream for your family by renting out your unused rooms." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fpa-qy-JeM">
-                                                    <rect key="frame" x="16" y="68.5" width="317" height="20.5"/>
+                                                    <rect key="frame" x="16" y="63" width="317" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -253,6 +254,7 @@
                                         </tableViewCellContentView>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="tertiaryText" value="October 10, 2:13pm"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="detailImage" value="houseInterior"/>
                                         </userDefinedRuntimeAttributes>
                                     </tableViewCell>
                                 </cells>
@@ -515,7 +517,9 @@
     </scenes>
     <resources>
         <image name="blockCircle" width="235" height="215"/>
+        <image name="chain" width="259" height="194"/>
         <image name="farmerHead" width="96" height="96"/>
+        <image name="houseInterior" width="276" height="182"/>
         <image name="houseSimple" width="235" height="214"/>
         <image name="icon block" width="24" height="24"/>
         <image name="icon block highlighted" width="24" height="24"/>
