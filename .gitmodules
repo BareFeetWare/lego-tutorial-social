@@ -1,0 +1,3 @@
+[submodule "Submodules/BFWControls"]
+	path = Submodules/BFWControls
+	url = https://github.com/BareFeetWare/BFWControls.git
