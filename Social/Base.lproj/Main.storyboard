@@ -18,77 +18,89 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
-                            <tableViewSection id="dak-Yc-NiG">
+                            <tableViewSection id="1fw-ru-6RB">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="SbI-rQ-KeH" detailTextLabel="xYW-Ik-w7H" style="IBUITableViewCellStyleSubtitle" id="AN8-vB-i7o">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="9Qh-2w-ncQ" detailTextLabel="aq7-Ql-3fc" imageView="aD7-IB-cZi" style="IBUITableViewCellStyleSubtitle" id="AN8-vB-i7o">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AN8-vB-i7o" id="KXk-t6-kHf">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Erin Blockhead" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SbI-rQ-KeH">
-                                                    <rect key="frame" x="16" y="5" width="114" height="20.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Erin Blockhead" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Qh-2w-ncQ">
+                                                    <rect key="frame" x="75" y="5" width="114" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Hi! How's it all going? It's been a while. Did you manage to sort it all out?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xYW-Ik-w7H">
-                                                    <rect key="frame" x="16" y="25.5" width="343" height="14.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Hi! How's it all going? It's been a while. Did you manage to sort it all out?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aq7-Ql-3fc">
+                                                    <rect key="frame" x="75" y="25.5" width="284" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="orangeHead" id="aD7-IB-cZi">
+                                                    <rect key="frame" x="16" y="0.0" width="44" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="pks-uk-EXP" detailTextLabel="qhA-4a-eSo" style="IBUITableViewCellStyleSubtitle" id="Z0Y-HH-ocU">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Ac0-BP-eQH" detailTextLabel="8h4-hC-4E3" imageView="vUS-nk-9ul" style="IBUITableViewCellStyleSubtitle" id="UnC-Iz-3gh">
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Z0Y-HH-ocU" id="eQ5-hl-V6b">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UnC-Iz-3gh" id="MP2-7D-vnI">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pks-uk-EXP">
-                                                    <rect key="frame" x="16" y="5" width="24" height="20.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ac0-BP-eQH">
+                                                    <rect key="frame" x="75" y="5" width="24" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Everything is awesome! Everything is cool when you're part of a team." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qhA-4a-eSo">
-                                                    <rect key="frame" x="16" y="25.5" width="343" height="14.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Everything is awesome! Everything is cool when you're part of a team." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8h4-hC-4E3">
+                                                    <rect key="frame" x="75" y="25.5" width="284" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="winkHead" id="vUS-nk-9ul">
+                                                    <rect key="frame" x="16" y="0.0" width="44" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="COd-NT-Slq" detailTextLabel="nTf-zy-h14" style="IBUITableViewCellStyleSubtitle" id="1TZ-v3-jgP">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="8dq-ck-QmK" detailTextLabel="Tyt-t8-KHc" imageView="GTB-47-lcR" style="IBUITableViewCellStyleSubtitle" id="9Ln-e0-Xsc">
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1TZ-v3-jgP" id="Q2F-NQ-7sz">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Ln-e0-Xsc" id="P5H-Pu-TyV">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Ben Interlock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="COd-NT-Slq">
-                                                    <rect key="frame" x="16" y="5" width="100.5" height="20.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Ben Interlock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8dq-ck-QmK">
+                                                    <rect key="frame" x="75" y="5" width="100.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Hey, let's all connect at the thing, after the other thing." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nTf-zy-h14">
-                                                    <rect key="frame" x="16" y="25.5" width="310" height="14.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Hey, let's all connect at the thing, after the other thing." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tyt-t8-KHc">
+                                                    <rect key="frame" x="75" y="25.5" width="284" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="farmerHead" id="GTB-47-lcR">
+                                                    <rect key="frame" x="16" y="0.0" width="44" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -110,12 +122,12 @@
         <scene sceneID="dxQ-kh-Nrx">
             <objects>
                 <navigationController id="sZA-x3-ene" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Chat" id="goz-rb-9aH"/>
+                    <tabBarItem key="tabBarItem" title="Chat" image="icon chat" selectedImage="icon chat highlighted" id="goz-rb-9aH"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="kcT-mt-Njr">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.81568627449999997" green="0.062745098040000002" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.81568627449999997" green="0.062745098040000002" blue="0.070588235289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="Zfl-fO-hAB" kind="relationship" relationship="rootViewController" id="lXy-rh-FCR"/>
@@ -133,11 +145,11 @@
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="selectedImageTintColor" red="0.81568627449999997" green="0.062745098040000002" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.81568627449999997" green="0.062745098040000002" blue="0.070588235289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="2YW-0n-KUE" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="zeA-Vu-9sp" kind="relationship" relationship="viewControllers" id="iaq-L9-bNp"/>
+                        <segue destination="6Bb-KX-FDG" kind="relationship" relationship="viewControllers" id="5IX-gE-afa"/>
                         <segue destination="sZA-x3-ene" kind="relationship" relationship="viewControllers" id="sVA-e2-Ees"/>
                     </connections>
                 </tabBarController>
@@ -149,13 +161,13 @@
         <scene sceneID="LBz-xn-k84">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2YW-0n-KUE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="News" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="News" image="icon news" selectedImage="icon news highlighted" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="eC2-1h-fe7">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.81568627450980391" green="0.062745098039215685" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.81568627450980391" green="0.062745098039215685" blue="0.070588235294117646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -175,57 +187,65 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
-                            <tableViewSection id="rW4-tG-WeQ">
+                            <tableViewSection id="Uo4-Zw-lR5">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="nAB-yd-GIp" detailTextLabel="8YH-Ii-grz" style="IBUITableViewCellStyleSubtitle" id="9jn-TO-EF3">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="eAr-WB-aTb" detailTextLabel="hoa-dj-cDM" imageView="lhx-u4-GW3" style="IBUITableViewCellStyleSubtitle" id="9jn-TO-EF3">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9jn-TO-EF3" id="yhm-ph-k0c">
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Lego Block Chain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nAB-yd-GIp">
-                                                    <rect key="frame" x="16" y="5" width="133" height="20.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Lego Block Chain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eAr-WB-aTb">
+                                                    <rect key="frame" x="79" y="5" width="133" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8YH-Ii-grz">
-                                                    <rect key="frame" x="16" y="25.5" width="324" height="14.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hoa-dj-cDM">
+                                                    <rect key="frame" x="79" y="25.5" width="261" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Add your own Lego block to the chain of transactions to guarantee security by trusting a whole crowd of people you've never met. What can possibly go wrong?</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="blockCircle" id="lhx-u4-GW3">
+                                                    <rect key="frame" x="16" y="0.0" width="48" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="mEr-sv-d3j" kind="show" id="XsB-k5-4RJ"/>
+                                            <segue destination="p1A-Xu-Eo0" kind="show" id="sQf-93-JRF"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="em7-PM-kq7" detailTextLabel="zVa-Cl-chp" style="IBUITableViewCellStyleSubtitle" id="p16-wy-8gt">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="rNb-5j-CUU" detailTextLabel="fpa-qy-JeM" imageView="r7h-07-6ZP" style="IBUITableViewCellStyleSubtitle" id="z9W-7r-G0U">
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p16-wy-8gt" id="P6M-D3-16f">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="z9W-7r-G0U" id="DM4-b7-YcL">
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Air Block &amp; Block" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="em7-PM-kq7">
-                                                    <rect key="frame" x="16" y="5" width="130.5" height="20.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Air Block &amp; Block" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rNb-5j-CUU">
+                                                    <rect key="frame" x="79" y="5" width="130.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Rent out your Lego house for extra dollars. Create an extra revenue stream for your family by renting out your unused rooms." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zVa-Cl-chp">
-                                                    <rect key="frame" x="16" y="25.5" width="324" height="14.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Rent out your Lego house for extra dollars. Create an extra revenue stream for your family by renting out your unused rooms." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fpa-qy-JeM">
+                                                    <rect key="frame" x="79" y="25.5" width="261" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="houseSimple" id="r7h-07-6ZP">
+                                                    <rect key="frame" x="16" y="0.0" width="48" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -244,33 +264,32 @@
             <point key="canvasLocation" x="1700" y="-399"/>
         </scene>
         <!--Table View Controller-->
-        <scene sceneID="lxy-aN-TNc">
+        <scene sceneID="gJi-FK-SuY">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VL0-D6-uWx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="mEr-sv-d3j" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6fl-WQ-7cY">
+                <tableViewController id="p1A-Xu-Eo0" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="QSH-BK-S5w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
-                            <tableViewSection id="BaL-3O-Ipb">
+                            <tableViewSection id="gte-61-Ea6">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="F2H-eb-hcM">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="BMF-NT-bpU">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F2H-eb-hcM" id="YzT-y3-R5V">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BMF-NT-bpU" id="hZq-yr-o06">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="OeL-30-WxF" style="IBUITableViewCellStyleDefault" id="cuH-lg-ehN">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="4js-se-8hv" style="IBUITableViewCellStyleDefault" id="RI4-KW-f2N">
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cuH-lg-ehN" id="azm-hy-xNh">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RI4-KW-f2N" id="Q0H-l6-nRg">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Lego Block Chain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OeL-30-WxF">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Lego Block Chain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4js-se-8hv">
                                                     <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -280,14 +299,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="gEZ-39-8Y4" style="IBUITableViewCellStyleDefault" id="haJ-s0-W5D">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="uZ0-l7-3He" style="IBUITableViewCellStyleDefault" id="0Gj-Hm-e26">
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="haJ-s0-W5D" id="fvP-7h-xUc">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Gj-Hm-e26" id="dcm-RL-3Lw">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gEZ-39-8Y4">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uZ0-l7-3He">
                                                     <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Add your own Lego block to the chain of transactions to guarantee security by trusting a whole crowd of people you've never met. What can possibly go wrong?</string>
@@ -302,118 +321,106 @@
                             </tableViewSection>
                         </sections>
                         <connections>
-                            <outlet property="dataSource" destination="mEr-sv-d3j" id="lfT-AI-Ps9"/>
-                            <outlet property="delegate" destination="mEr-sv-d3j" id="9kx-b9-uTo"/>
+                            <outlet property="dataSource" destination="p1A-Xu-Eo0" id="kbJ-CO-f2L"/>
+                            <outlet property="delegate" destination="p1A-Xu-Eo0" id="dvV-kL-V4s"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="ZbZ-33-lvv"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="F9e-HK-8uK"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cuw-KY-7k6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2671" y="-400"/>
+            <point key="canvasLocation" x="2610" y="-400"/>
         </scene>
         <!--Products-->
-        <scene sceneID="VAD-xk-4Hg">
+        <scene sceneID="Qfs-jE-fin">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zeA-Vu-9sp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Products" image="first" id="FVM-2F-WOk"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Bb-KX-FDG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Products" image="icon block" selectedImage="icon block highlighted" id="lFH-mk-x9p"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="OyG-WD-X3d">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="RWB-KX-cOg">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.81568627449999997" green="0.062745098040000002" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.81568627449999997" green="0.062745098040000002" blue="0.070588235289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="CgI-vp-yUw" kind="relationship" relationship="rootViewController" id="hT5-H4-Hti"/>
+                        <segue destination="ql2-Bb-itq" kind="relationship" relationship="rootViewController" id="qgU-hI-bdg"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Mj1-qH-y3u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dga-pU-Fpo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="359"/>
         </scene>
         <!--Products-->
-        <scene sceneID="0bX-Mq-QZk">
+        <scene sceneID="zVB-rH-cZp">
             <objects>
-                <tableViewController id="CgI-vp-yUw" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="yY9-me-7q0">
+                <tableViewController id="ql2-Bb-itq" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="A3P-ND-CvM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
-                            <tableViewSection id="Fa7-cu-I4T">
+                            <tableViewSection id="HyY-bj-cHc">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Y9i-EB-aWM" detailTextLabel="RlZ-9m-Fhy" style="IBUITableViewCellStyleSubtitle" id="rtF-AJ-Oc3">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="tTC-9P-DGa" detailTextLabel="4W8-E5-pbq" imageView="Jht-XD-9QV" style="IBUITableViewCellStyleSubtitle" id="o4x-bb-yA7">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rtF-AJ-Oc3" id="3mf-ro-ZKW">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="o4x-bb-yA7" id="jnu-uz-GG7">
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Sydney Opera House &amp; Harbour Bridge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Y9i-EB-aWM">
-                                                    <rect key="frame" x="16" y="5" width="299.5" height="20.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Sydney Opera House &amp; Harbour Bridge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tTC-9P-DGa">
+                                                    <rect key="frame" x="78" y="5" width="262" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RlZ-9m-Fhy">
-                                                    <rect key="frame" x="16" y="25.5" width="324" height="14.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4W8-E5-pbq">
+                                                    <rect key="frame" x="78" y="25.5" width="262" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <mutableString key="text">Capture the architectural essence and splendor of Sydney with this magnificent set that brings together the iconic Sydney Opera House™, Sydney Harbour Bridge, Sydney Tower and Deutsche Bank Place, in an inspirational skyline setting. Each individual LEGO® structure provides a unique and rewarding building experience with true-to-life color and relative scale depiction. Sydney's sparkling harbor is represented in the tiled baseplate, adding an extra dimension and feel of authenticity to this detailed recreation of one of the world's most glamorous cities.
-
-LEGO® Architecture interpretation of Sydney.
-Features the Sydney Opera House™, Sydney Harbour Bridge, Sydney Tower and Deutsche Bank Place.
-Sydney’s sparkling harbor is represented by transparent-blue baseplate tiles.
-The included booklet contains information about the designer, architecture and history of each structure, as well as historical facts about Sydney and its architectural heritage (English language only. Other languages available for download at LEGO.com/architecture).
-Includes a 4x32 tiled base with a decorative “Sydney” nameplate.
-Recreate the world's most beautiful cities with the LEGO® Architecture Skyline Collection.
-LEGO® Architecture celebrates the world of architecture through the medium of the LEGO brick, and is developed for all with an interest in travel, design, architecture and history.
-This set includes over 360 LEGO® pieces and offers an age-appropriate building experience for ages 12+.
-Measures over 8” (21cm) high, 9” (25cm) wide and 2” (6cm) deep.</mutableString>
+                                                    <mutableString key="text">Capture the architectural essence and splendor of Sydney with this magnificent set that brings together the iconic Sydney Opera House™, Sydney Harbour Bridge, Sydney Tower and Deutsche Bank Place, in an inspirational skyline setting. Each individual LEGO® structure provides a unique and rewarding building experience with true-to-life color and relative scale depiction. Sydney's sparkling harbor is represented in the tiled baseplate, adding an extra dimension and feel of authenticity to this detailed recreation of one of the world's most glamorous cities.</mutableString>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="sydney" id="Jht-XD-9QV">
+                                                    <rect key="frame" x="16" y="0.0" width="47" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Kpw-po-5ZT" kind="show" id="HJR-Aj-fuc"/>
+                                            <segue destination="cJF-7A-1VQ" kind="show" id="pTw-cc-rBS"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="7ja-dB-1FV" detailTextLabel="QnP-ZE-TTF" style="IBUITableViewCellStyleSubtitle" id="fuF-5d-Yb4">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="sjN-ih-hNC" detailTextLabel="HI4-xO-XiE" imageView="8vs-y5-XMu" style="IBUITableViewCellStyleSubtitle" id="EcO-Ty-zw5">
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fuF-5d-Yb4" id="OAL-fd-0Wi">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EcO-Ty-zw5" id="06d-2m-5wu">
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Space Shuttle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7ja-dB-1FV">
-                                                    <rect key="frame" x="16" y="5" width="107" height="20.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Space Shuttle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sjN-ih-hNC">
+                                                    <rect key="frame" x="82" y="5" width="107" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QnP-ZE-TTF">
-                                                    <rect key="frame" x="16" y="25.5" width="324" height="14.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HI4-xO-XiE">
+                                                    <rect key="frame" x="82" y="25.5" width="258" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <mutableString key="text">Carry out daring space missions with the Space Shuttle Explorer, featuring an authentic white, black and gray color scheme, large engines, opening payload bay with robotic arm, satellite with foldout wings and a minifigure cockpit with tinted canopy. This 3-in-1 LEGO® Creator model rebuilds into a Moon Station or a Space Rover for further outer‑space adventures. Also includes a minifigure.
-
-Includes an astronaut minifigure with a removable jetpack.
-Features an opening payload bay with a robotic arm, satellite with foldout wings, large engines and a minifigure cockpit with tinted canopy.
-Check out the authentic white, black and gray color scheme.
-Put on the astronaut jetpack for daring spacewalks.
-Open the payload bay to access the satellite.
-Fold out the satellite wings and launch it into space.
-3-in-1 model: rebuilds into a Moon Station with a detailed interior, control panel and robotic arm, or a Space Rover with open cockpit and drilling arm.
-Space Shuttle Explorer measures over 3” (9cm) high, 10” (26cm) long and 7” (19cm) wide.
-Moon Station measures over 2” (6cm) high, 7” (18cm) wide and 4” (11cm) deep.
-Space Rover measures over 2” (6cm) high, 5” (13cm) long and 3” (8cm) wide.</mutableString>
+                                                    <mutableString key="text">Carry out daring space missions with the Space Shuttle Explorer, featuring an authentic white, black and gray color scheme, large engines, opening payload bay with robotic arm, satellite with foldout wings and a minifigure cockpit with tinted canopy. This 3-in-1 LEGO® Creator model rebuilds into a Moon Station or a Space Rover for further outer‑space adventures. Also includes a minifigure.</mutableString>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="spaceShuttleSatellite" id="8vs-y5-XMu">
+                                                    <rect key="frame" x="16" y="0.0" width="51" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -421,44 +428,43 @@ Space Rover measures over 2” (6cm) high, 5” (13cm) long and 3” (8cm) wide.
                             </tableViewSection>
                         </sections>
                         <connections>
-                            <outlet property="dataSource" destination="CgI-vp-yUw" id="rjP-JI-9t0"/>
-                            <outlet property="delegate" destination="CgI-vp-yUw" id="5L6-Wf-Dy2"/>
+                            <outlet property="dataSource" destination="ql2-Bb-itq" id="DAx-Vs-Ety"/>
+                            <outlet property="delegate" destination="ql2-Bb-itq" id="yE4-jm-sls"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Products" id="yXu-DI-qpx"/>
+                    <navigationItem key="navigationItem" title="Products" id="jyK-jw-OII"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2n8-XG-SHK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lyt-uf-wCT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1700" y="359"/>
         </scene>
         <!--Table View Controller-->
-        <scene sceneID="okf-yR-ql6">
+        <scene sceneID="CGY-cH-q5C">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sud-IT-N2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="Kpw-po-5ZT" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7Nn-KA-fvH">
+                <tableViewController id="cJF-7A-1VQ" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bbs-bc-6Tp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
-                            <tableViewSection id="Um8-26-SDO">
+                            <tableViewSection id="q2b-zd-dXG">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="bhP-uC-9Vb">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="eNd-aD-DVE">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bhP-uC-9Vb" id="FdM-xZ-plb">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eNd-aD-DVE" id="0Tx-tj-gMQ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="Kam-cO-Wq6" style="IBUITableViewCellStyleDefault" id="pip-65-EgV">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="LD7-wF-KhT" style="IBUITableViewCellStyleDefault" id="6Ca-37-mkB">
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pip-65-EgV" id="HTD-7R-Tzx">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Ca-37-mkB" id="Rqw-ng-hY6">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Sydney Opera House &amp; Harbour Bridge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kam-cO-Wq6">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Sydney Opera House &amp; Harbour Bridge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LD7-wF-KhT">
                                                     <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -468,27 +474,17 @@ Space Rover measures over 2” (6cm) high, 5” (13cm) long and 3” (8cm) wide.
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="ehZ-Xc-nV4" style="IBUITableViewCellStyleDefault" id="nj8-Ab-YXL">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="C2K-Xa-WeW" style="IBUITableViewCellStyleDefault" id="zAa-PB-aZi">
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nj8-Ab-YXL" id="5sw-4u-mkP">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zAa-PB-aZi" id="sDe-I2-Qnf">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ehZ-Xc-nV4">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C2K-Xa-WeW">
                                                     <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <mutableString key="text">Capture the architectural essence and splendor of Sydney with this magnificent set that brings together the iconic Sydney Opera House™, Sydney Harbour Bridge, Sydney Tower and Deutsche Bank Place, in an inspirational skyline setting. Each individual LEGO® structure provides a unique and rewarding building experience with true-to-life color and relative scale depiction. Sydney's sparkling harbor is represented in the tiled baseplate, adding an extra dimension and feel of authenticity to this detailed recreation of one of the world's most glamorous cities.
-
-LEGO® Architecture interpretation of Sydney.
-Features the Sydney Opera House™, Sydney Harbour Bridge, Sydney Tower and Deutsche Bank Place.
-Sydney’s sparkling harbor is represented by transparent-blue baseplate tiles.
-The included booklet contains information about the designer, architecture and history of each structure, as well as historical facts about Sydney and its architectural heritage (English language only. Other languages available for download at LEGO.com/architecture).
-Includes a 4x32 tiled base with a decorative “Sydney” nameplate.
-Recreate the world's most beautiful cities with the LEGO® Architecture Skyline Collection.
-LEGO® Architecture celebrates the world of architecture through the medium of the LEGO brick, and is developed for all with an interest in travel, design, architecture and history.
-This set includes over 360 LEGO® pieces and offers an age-appropriate building experience for ages 12+.
-Measures over 8” (21cm) high, 9” (25cm) wide and 2” (6cm) deep.</mutableString>
+                                                    <mutableString key="text">Capture the architectural essence and splendor of Sydney with this magnificent set that brings together the iconic Sydney Opera House™, Sydney Harbour Bridge, Sydney Tower and Deutsche Bank Place, in an inspirational skyline setting. Each individual LEGO® structure provides a unique and rewarding building experience with true-to-life color and relative scale depiction. Sydney's sparkling harbor is represented in the tiled baseplate, adding an extra dimension and feel of authenticity to this detailed recreation of one of the world's most glamorous cities.</mutableString>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -500,17 +496,30 @@ Measures over 8” (21cm) high, 9” (25cm) wide and 2” (6cm) deep.</mutableSt
                             </tableViewSection>
                         </sections>
                         <connections>
-                            <outlet property="dataSource" destination="Kpw-po-5ZT" id="sWs-iX-2DV"/>
-                            <outlet property="delegate" destination="Kpw-po-5ZT" id="ZNb-3w-LmL"/>
+                            <outlet property="dataSource" destination="cJF-7A-1VQ" id="SRT-kp-cu1"/>
+                            <outlet property="delegate" destination="cJF-7A-1VQ" id="7xn-8j-zHa"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="vFa-05-WAB"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="PMR-1b-g4G"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohg-aH-OU0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2670" y="358"/>
+            <point key="canvasLocation" x="2609" y="358"/>
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
+        <image name="blockCircle" width="235" height="215"/>
+        <image name="farmerHead" width="96" height="96"/>
+        <image name="houseSimple" width="235" height="214"/>
+        <image name="icon block" width="24" height="24"/>
+        <image name="icon block highlighted" width="24" height="24"/>
+        <image name="icon chat" width="24" height="24"/>
+        <image name="icon chat highlighted" width="24" height="24"/>
+        <image name="icon news" width="24" height="24"/>
+        <image name="icon news highlighted" width="24" height="24"/>
+        <image name="orangeHead" width="80" height="80"/>
+        <image name="spaceShuttleSatellite" width="999" height="856"/>
+        <image name="sydney" width="994" height="922"/>
+        <image name="winkHead" width="96" height="96"/>
     </resources>
 </document>
